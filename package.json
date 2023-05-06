@@ -1,7 +1,7 @@
 {
   "name": "euler-largest-prime-factor",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project euler problem 3",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
