@@ -5,8 +5,8 @@
  * Reference: https://projecteuler.net/problem=3
  */
 
-function largestPrimeFactor(n: number): number {
-	function isPrime(input: number): boolean {
+export default function largestPrimeFactor(n: number): number {
+	const isPrime = (input: number): boolean => {
 		for (let i = 2; i < input; i++) {
 			if (input % i === 0) return false;
 		}
@@ -26,5 +26,3 @@ function largestPrimeFactor(n: number): number {
 
 	return Math.max(...primeFactors);
 }
-
-console.log(largestPrimeFactor(600851475143));
